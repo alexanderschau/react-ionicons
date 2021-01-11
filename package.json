@@ -1,6 +1,7 @@
 {
   "name": "@reacticons/ionicons",
   "version": "1.0.0-alpha.7",
+  "ioniconsVersion": "v5.3.0",
   "license": "MIT",
   "private": false,
   "author": "Alexander Schau <alexander@schau.email> (https://alexanderschau.com/)",
@@ -9,6 +10,7 @@
     "lib/components/**/*"
   ],
   "scripts": {
+    "t": "printenv",
     "build": "bash run-build.sh",
     "build-typescript": "tsc",
     "format": "prettier --write .",

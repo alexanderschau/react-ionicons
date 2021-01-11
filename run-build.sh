@@ -1,7 +1,7 @@
 #!/bin/sh
 
 yarn build-typescript
-wget https://github.com/ionic-team/ionicons/archive/v5.3.0.zip -O ionicons.zip
+wget https://github.com/ionic-team/ionicons/archive/$npm_package_ioniconsVersion.zip -O ionicons.zip
 unzip -o ionicons.zip -d lib/
 rm ionicons.zip
 
