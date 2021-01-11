@@ -1,0 +1,30 @@
+{
+  "name": "@reacticons/ionicons",
+  "version": "1.0.0-alpha.7",
+  "license": "MIT",
+  "private": false,
+  "author": "Alexander Schau <alexander@schau.email> (https://alexanderschau.com/)",
+  "main": "lib/components/IonIcon.js",
+  "files": [
+    "lib/components/**/*"
+  ],
+  "scripts": {
+    "build": "bash run-build.sh",
+    "build-typescript": "tsc",
+    "format": "prettier --write .",
+    "lint": "eslint . --ext ts --ext js"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.14",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint": "^7.16.0",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {}
+}
