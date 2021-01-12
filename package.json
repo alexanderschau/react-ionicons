@@ -5,6 +5,10 @@
   "license": "MIT",
   "private": false,
   "author": "Alexander Schau <alexander@schau.email> (https://alexanderschau.com/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexanderschau/react-ionicons.git"
+  },
   "main": "lib/components/IonIcon.js",
   "files": [
     "lib/components/**/*"
