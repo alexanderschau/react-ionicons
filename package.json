@@ -19,6 +19,11 @@
   "files": [
     "lib/components/**/*"
   ],
+  "type": "module",
+  "types": "./lib/components/IonIcon.d.ts",
+  "exports": {
+    "import": "./lib/components/IonIcon.js"
+  },
   "scripts": {
     "build": "bash run-build.sh",
     "build-typescript": "tsc",
