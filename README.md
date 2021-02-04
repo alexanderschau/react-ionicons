@@ -1,8 +1,10 @@
 # Ionicons React Component
 
-This package contains a simple React Component, which implements the latest version of the official [Ionicons](https://github.com/ionic-team/ionicons) into React (even with Typescript).
+![hero_image.png](hero_image.png)
 
-## Install
+This package contains a React Component, which implements the latest version of the official [Ionicons](https://github.com/ionic-team/ionicons) into React.
+
+## Installation 📦
 
 To add the package to your existing React project just type in one of the following commands:
 
@@ -29,7 +31,7 @@ export const Component = () => (
 );
 ```
 
-## Supported Icons
+## Supported Icons 
 
 This package supports all Ionicons of the matching version. To see a full list of them, you can take a look at the official [Ionicons website](https://ionicons.com/).
 
