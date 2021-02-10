@@ -1,7 +1,7 @@
 {
   "name": "@reacticons/ionicons",
   "version": "5.4.0",
-  "ioniconsVersion": "v5.4.0",
+  "ioniconsVersion": "v5.5.0",
   "license": "MIT",
   "private": false,
   "author": "Alexander Schau <alexander@schau.email> (https://alexanderschau.com/)",
@@ -19,7 +19,6 @@
   "files": [
     "lib/components/**/*"
   ],
-  "type": "module",
   "types": "./lib/components/IonIcon.d.ts",
   "exports": {
     "import": "./lib/components/IonIcon.js"
