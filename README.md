@@ -31,7 +31,7 @@ export const Component = () => (
 );
 ```
 
-## Supported Icons 
+## Supported Icons
 
 This package supports all Ionicons of the matching version. To see a full list of them, you can take a look at the official [Ionicons website](https://ionicons.com/).
 
