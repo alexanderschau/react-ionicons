@@ -31,6 +31,15 @@ export const Component = () => (
 );
 ```
 
+### Custom Size
+
+You can specify the icon size by using the optional `size` prop.
+
+```js
+<IonIcon name="bag-outline" size="small" />
+<IonIcon name="bag-outline" size="large" />
+```
+
 ## Supported Icons
 
 This package supports all Ionicons of the matching version. To see a full list of them, you can take a look at the official [Ionicons website](https://ionicons.com/).
