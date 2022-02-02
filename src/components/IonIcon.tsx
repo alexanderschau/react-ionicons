@@ -8,8 +8,8 @@ const IonIcon = (
     {...props}
     style={{
       display: 'inline-block',
-      height: props.size ? (props.size == 'small' ? '18px' : '32px') : '1em',
-      width: props.size ? (props.size == 'small' ? '18px' : '32px') : '1em',
+      height: props.size ? (props.size == 'small' ? '.5em' : '2em') : '1em',
+      width: props.size ? (props.size == 'small' ? '.5em' : '2em') : '1em',
       visibility: 'inherit',
       fill: 'currentcolor',
       boxSizing: 'content-box',
