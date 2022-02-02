@@ -1,13 +1,15 @@
 import React from 'react';
 import IconList from './iconList.json';
 
-const IonIcon = (props: React.HTMLAttributes<HTMLDivElement> & { name: keyof typeof IconList }): JSX.Element => (
+const IonIcon = (
+  props: React.HTMLAttributes<HTMLDivElement> & { name: keyof typeof IconList; size?: 'small' | 'large' },
+): JSX.Element => (
   <div
     {...props}
     style={{
       display: 'inline-block',
-      height: '1em',
-      width: '1em',
+      height: props.size ? (props.size == 'small' ? '18px' : '32px') : '1em',
+      width: props.size ? (props.size == 'small' ? '18px' : '32px') : '1em',
       visibility: 'inherit',
       fill: 'currentcolor',
       boxSizing: 'content-box',
