@@ -46,4 +46,4 @@ This package supports all Ionicons of the matching version. To see a full list o
 
 ## Hint
 
-By the way, the `<IonIcon>` Component has the same attributes as a typical `<div>` element.
+By the way, the `<IonIcon>` Component has the same attributes as a typical `<span>` element.
