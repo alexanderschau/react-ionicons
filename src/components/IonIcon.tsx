@@ -4,7 +4,7 @@ import IconList from './iconList.json';
 const IonIcon = (
   props: React.HTMLAttributes<HTMLDivElement> & { name: keyof typeof IconList; size?: 'small' | 'large' },
 ): JSX.Element => (
-  <div
+  <span
     {...props}
     style={{
       display: 'inline-block',
