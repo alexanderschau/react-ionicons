@@ -1,7 +1,7 @@
 {
   "name": "@reacticons/ionicons",
-  "version": "6.0.2",
-  "ioniconsVersion": "v6.0.1",
+  "version": "6.0.3",
+  "ioniconsVersion": "v6.0.2",
   "license": "MIT",
   "private": false,
   "author": "Alexander Schau <alexander@schau.email> (https://alexanderschau.com/)",
@@ -20,9 +20,6 @@
     "lib/components/**/*"
   ],
   "types": "./lib/components/IonIcon.d.ts",
-  "exports": {
-    "import": "./lib/components/IonIcon.js"
-  },
   "scripts": {
     "build": "bash run-build.sh",
     "build-typescript": "tsc",
