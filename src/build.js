@@ -13,5 +13,5 @@ const version = process.env.COMMIT_MESSAGE;
       .replace(/(height|width)=".*?" /g, '')
       .replace(/<title>.*?<\/title>/g, '');
   }
-  fs.writeFileSync('../lib/iconList.json', JSON.stringify(res));
+  fs.writeFileSync('./lib/iconList.json', JSON.stringify(res));
 })();

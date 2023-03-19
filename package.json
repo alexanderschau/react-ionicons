@@ -22,7 +22,6 @@
   ],
   "scripts": {
     "build": "bash run-build.sh",
-    "build-typescript": "tsc",
     "format": "prettier --write .",
     "lint": "eslint . --ext ts --ext js"
   },
@@ -30,13 +29,11 @@
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
-    "@typescript-eslint/eslint-plugin": "^5.50.0",
-    "@typescript-eslint/parser": "^5.50.0",
-    "eslint": "^8.33.0",
+    "esbuild": "^0.17.12",
+    "esbuild-node-externals": "^1.6.0",
     "prettier": "^2.8.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "typescript": "^4.9.5"
+    "react-dom": "^18.2.0"
   },
   "dependencies": {}
 }

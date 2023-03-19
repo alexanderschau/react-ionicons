@@ -13,3 +13,5 @@ cd ..
 
 COMMIT_MESSAGE=$commit_message node src/build.js
 rm -rf lib/ionicons-$commit_message
+
+node esbuild.config.js
