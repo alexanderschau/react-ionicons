@@ -4,6 +4,7 @@
   "ioniconsVersion": "v6.1.1",
   "license": "MIT",
   "private": false,
+  "type": "module",
   "author": "Alexander Schau <alexander@schau.email> (https://alexanderschau.com/)",
   "repository": {
     "type": "git",
@@ -15,11 +16,10 @@
     "icons",
     "typescript"
   ],
-  "main": "lib/components/IonIcon.js",
+  "main": "lib/IonIcon.js",
   "files": [
-    "lib/components/**/*"
+    "lib/**/*"
   ],
-  "types": "./lib/components/IonIcon.d.ts",
   "scripts": {
     "build": "bash run-build.sh",
     "build-typescript": "tsc",
