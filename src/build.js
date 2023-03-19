@@ -10,7 +10,9 @@ const version = process.env.COMMIT_MESSAGE;
   for (const icon of icons) {
     res[icon] = fs
       .readFileSync(`lib/ionicons-${version}/src/svg/${icon}.svg`, 'utf-8')
-      .replace(/(height|width)=".*?" /g, '')
+      .replace(/(<svg[^>]+)width="[^"]+" /g, '$1')
+      .replace(/(<svg[^>]+)height="[^"]+" /g, '$1')
+      .replace(/(#000|#000000)/g, 'currentColor')
       .replace(/<title>.*?<\/title>/g, '');
   }
   fs.writeFileSync('./lib/iconList.json', JSON.stringify(res));

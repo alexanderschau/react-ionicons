@@ -1,5 +1,8 @@
 import React from 'react';
-import IconList from './iconList.json';
+
+// this file only exists during the build process
+// @ts-ignore
+import IconList from '../lib/iconList.json';
 
 const IonIcon = (
   props: React.HTMLAttributes<HTMLDivElement> & { name: keyof typeof IconList; size?: 'small' | 'large' },
