@@ -1,7 +1,7 @@
 {
   "name": "@reacticons/ionicons",
-  "version": "6.1.5",
-  "ioniconsVersion": "v6.1.1",
+  "version": "7.0.0",
+  "ioniconsVersion": "v7.0.0",
   "license": "MIT",
   "private": false,
   "type": "module",

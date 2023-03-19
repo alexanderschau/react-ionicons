@@ -1,8 +1,7 @@
 import React from 'react';
-import IconList from './iconList.json';
 declare const IonIcon: (
   props: React.HTMLAttributes<HTMLDivElement> & {
-    name: keyof typeof IconList;
+    name: 'all icon names';
     size?: 'small' | 'large';
   },
 ) => JSX.Element;
