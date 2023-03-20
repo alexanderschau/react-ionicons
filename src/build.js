@@ -18,6 +18,6 @@ const version = process.env.COMMIT_MESSAGE;
   fs.writeFileSync('./lib/iconList.json', JSON.stringify(res));
 
   let data = fs.readFileSync('./src/Component.d.ts', 'utf-8');
-  data = data.replace('"all icon names"', icons.map((icon) => `'${icon}'`).join(' | '));
+  data = data.replace("'all icon names'", icons.map((icon) => `'${icon}'`).join(' | '));
   fs.writeFileSync('./lib/IonIcon.d.ts', data);
 })();
