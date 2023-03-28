@@ -11,8 +11,8 @@ cd lib
 commit_message=$(ls | grep -oP '(?<=ionicons-)(.+)')
 cd ..
 
-COMMIT_MESSAGE=$commit_message node src/build.js
+COMMIT_MESSAGE=$commit_message node src/build.mjs
 rm -rf lib/ionicons-$commit_message
 
-node esbuild.config.js
+node esbuild.config.mjs
 rm lib/iconList.json
